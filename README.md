@@ -1,8 +1,7 @@
-Install KIND
+Install KIND (https://kind.sigs.k8s.io/docs/user/quick-start/)
 ----------------------------------------
-curl -Lo ./kind https://github.com/kubernetes-sigs/kind/releases/download/v0.7.0/kind-$(uname)-amd64
+curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-linux-amd64
 chmod +x ./kind
-
 
 create cluster with two nodes
 ----------------------------------------
